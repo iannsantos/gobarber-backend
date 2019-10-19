@@ -1,0 +1,14 @@
+node_modules
+
+// secret token
+src/config/auth.js
+
+// database connection
+src/config/database.js
+
+// images in uploads
+tmp/uploads/*
+
+// yarn
+yarn-error.log
+yarn.lock
