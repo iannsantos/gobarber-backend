@@ -10,5 +10,5 @@ src/config/database.js
 tmp/uploads/*
 
 // yarn
-yarn-error.log
 yarn.lock
+yarn-error.log
