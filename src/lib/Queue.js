@@ -33,7 +33,7 @@ class Queue {
       const { bee, handle } = this.queues[job.key];
 
       // e executar o handle (que no caso é o envio de emails)
-      bee.on('failed', this.handleFailure()).process(handle);
+      bee.on('failed', this.handleFailure).process(handle);
     });
   }
 
