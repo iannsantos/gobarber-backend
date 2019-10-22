@@ -1,17 +1,19 @@
-node_modules
+// BACKEND
+
+backend/node_modules
 
 // secret token
-src/config/auth.js
+backend/src/config/auth.js
 
 // database connection
-src/config/database.js
+backend/src/config/database.js
 
 // images in uploads
-tmp/uploads/*
+backend/tmp/uploads/*
 
 // yarn
-yarn.lock
-yarn-error.log
+backend/yarn.lock
+backend/yarn-error.log
 
 // nodemailer
-src/config/mail.js
+backend/src/config/mail.js
