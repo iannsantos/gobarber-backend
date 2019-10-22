@@ -1,19 +1,21 @@
 // BACKEND
 
-backend/node_modules
+node_modules
 
 // secret token
-backend/src/config/auth.js
+src/config/auth.js
 
 // database connection
-backend/src/config/database.js
+src/config/database.js
 
 // images in uploads
-backend/tmp/uploads/*
+tmp/uploads/*
 
 // yarn
-backend/yarn.lock
-backend/yarn-error.log
+yarn.lock
+yarn-error.log
 
 // nodemailer
-backend/src/config/mail.js
+src/config/mail.js
+
+.env
