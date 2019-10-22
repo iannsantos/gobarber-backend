@@ -12,3 +12,6 @@ tmp/uploads/*
 // yarn
 yarn.lock
 yarn-error.log
+
+// nodemailer
+src/config/mail.js
