@@ -17,7 +17,7 @@ export function* signIn({ payload }) {
     const { token, user } = response.data;
 
     if (!user.provider) {
-      toast.error('Usuário não é prestador de serviço');
+      toast.error("User isn't a provider");
       return;
     }
 
